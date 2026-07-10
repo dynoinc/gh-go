@@ -1,6 +1,6 @@
 module github.com/dynoinc/gh-go
 
-go 1.26.4
+go 1.26.5
 
 require (
 	github.com/earthboundkid/versioninfo/v2 v2.24.1
