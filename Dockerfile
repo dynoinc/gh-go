@@ -1,5 +1,5 @@
 # Build stage
-FROM golang:1.26-alpine AS builder
+FROM golang:1.27-alpine AS builder
 WORKDIR /src
 COPY . .
 RUN CGO_ENABLED=0 go build -ldflags="-s -w" -trimpath -o /bin/frontend ./cmd/frontend
